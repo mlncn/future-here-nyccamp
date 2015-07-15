@@ -14,7 +14,6 @@ function stack() {
 
   var section = d3.selectAll("section")
       .style("box-sizing", "border-box")
-      .style("line-height", "1.35em")
       .each(initialize);
 
   var n = section.size();
